@@ -3,6 +3,9 @@ package cn.jay;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration;
+import org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
@@ -10,9 +13,14 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * @description 启动入口
  * @create 2024-09-27 16:56
  */
-@SpringBootApplication
+@SpringBootApplication(
+        exclude = {
+                DataSourceAutoConfiguration.class,
+                DataSourceTransactionManagerAutoConfiguration.class,
+                JdbcTemplateAutoConfiguration.class
+        }
+)
 @Configurable
-@EnableScheduling
 public class Application {
 
     public static void main(String[] args) {
