@@ -1,4 +1,4 @@
-package cn.jay.common;
+package cn.jay.common.weixin;
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.core.util.QuickWriter;

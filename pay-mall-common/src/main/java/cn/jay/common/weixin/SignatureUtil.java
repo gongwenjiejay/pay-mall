@@ -1,4 +1,4 @@
-package cn.jay.common;
+package cn.jay.common.weixin;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
