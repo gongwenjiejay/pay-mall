@@ -1,6 +1,6 @@
 package cn.jay.service.impl;
 
-import cn.jay.domain.po.WeixinTemplateMessageVO;
+import cn.jay.domain.vo.WeixinTemplateMessageVO;
 import cn.jay.domain.req.WeixinQrCodeReq;
 import cn.jay.domain.res.WeixinQrCodeRes;
 import cn.jay.domain.res.WeixinTokenRes;

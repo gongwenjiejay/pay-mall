@@ -1,4 +1,4 @@
-package cn.jay.domain.po;
+package cn.jay.domain.vo;
 
 import java.util.HashMap;
 import java.util.Map;

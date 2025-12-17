@@ -13,13 +13,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * @description 启动入口
  * @create 2024-09-27 16:56
  */
-@SpringBootApplication(
-        exclude = {
-                DataSourceAutoConfiguration.class,
-                DataSourceTransactionManagerAutoConfiguration.class,
-                JdbcTemplateAutoConfiguration.class
-        }
-)
+@SpringBootApplication
 @Configurable
 public class Application {
 
