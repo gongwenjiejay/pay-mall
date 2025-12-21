@@ -16,4 +16,7 @@ public class ProductVO {
     /** 商品价格 */
     private BigDecimal price;
 
+    /** 商品图片 */
+    private String img;
+
 }
