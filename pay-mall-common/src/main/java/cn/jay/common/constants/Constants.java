@@ -4,11 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-/**
- * @author Fuzhengwei bugstack.cn @小傅哥
- * @description 通用的枚举值
- * @create 2023-07-22 21:24
- */
 public class Constants {
 
     public final static String SPLIT = ",";
