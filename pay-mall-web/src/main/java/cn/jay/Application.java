@@ -8,11 +8,6 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerA
 import org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
-/**
- * @author Fuzhengwei bugstack.cn @小傅哥
- * @description 启动入口
- * @create 2024-09-27 16:56
- */
 @SpringBootApplication
 @Configurable
 @EnableScheduling
