@@ -1,5 +1,5 @@
 spring:
   config:
-    name: s-pay-mall-mvc
+    name: pay-mall
   profiles:
     active: dev

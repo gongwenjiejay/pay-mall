@@ -3,11 +3,7 @@ package cn.jay.common.exception;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-/**
- * @author Fuzhengwei bugstack.cn @小傅哥
- * @description 应用自定义异常
- * @create 2024-02-25 12:17
- */
+
 @EqualsAndHashCode(callSuper = true)
 @Data
 public class AppException extends RuntimeException {

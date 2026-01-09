@@ -4,11 +4,7 @@ import com.google.common.eventbus.Subscribe;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
-/**
- * @author Fuzhengwei bugstack.cn @小傅哥
- * @description 支付成功回调消息
- * @create 2024-09-30 09:52
- */
+
 @Slf4j
 @Component
 public class OrderPaySuccessListener {

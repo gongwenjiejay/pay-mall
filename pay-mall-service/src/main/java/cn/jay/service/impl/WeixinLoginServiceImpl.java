@@ -16,11 +16,6 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author Fuzhengwei bugstack.cn @小傅哥
- * @description 微信服务
- * @create 2024-09-28 13:46
- */
 @Service
 public class WeixinLoginServiceImpl implements ILoginService {
 

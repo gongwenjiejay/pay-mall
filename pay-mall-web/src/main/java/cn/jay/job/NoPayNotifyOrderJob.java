@@ -12,11 +12,7 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Resource;
 import java.util.List;
 
-/**
- * @author Fuzhengwei bugstack.cn @小傅哥
- * @description 检测未接收到或未正确处理的支付回调通知
- * @create 2024-09-30 09:59
- */
+
 @Slf4j
 @Component()
 public class NoPayNotifyOrderJob {
